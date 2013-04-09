@@ -18,7 +18,7 @@
  * Theme version info
  *
  * @package    theme
- * @subpackage bootstrap
+ * @subpackage simple
  * @copyright  2013 Bas Brands, www.basbrands.nl
  * @authors    Bas Brands, David Scotson, Mary Evans
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -26,6 +26,6 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2013040900;
-$plugin->requires  = 2012112900;
+$plugin->version   = 2013041000;
+$plugin->requires  = 2013040500;
 $plugin->component = 'theme_simple';

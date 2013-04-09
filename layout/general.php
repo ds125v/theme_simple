@@ -25,6 +25,8 @@ $hassidepost = (empty($PAGE->layout_options['noblocks']) && $PAGE->blocks->regio
 $showsidepre = ($hassidepre && !$PAGE->blocks->region_completely_docked('side-pre', $OUTPUT));
 $showsidepost = ($hassidepost && !$PAGE->blocks->region_completely_docked('side-post', $OUTPUT));
 
+$hasfootnote = (!empty($PAGE->theme->settings->footnote));
+
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
@@ -161,6 +163,12 @@ echo $OUTPUT->doctype() ?>
 
 <footer id="page-footer">
     <p class="helplink"><?php echo page_doc_link(get_string('moodledocslink')) ?></p>
+    <div class="footnote well text-center">
+    <?php
+if ($hasfootnote) {
+    echo $PAGE->theme->settings->footnote;
+} ?>
+    </div>
     <?php echo $OUTPUT->standard_footer_html(); ?>
 </footer>
 

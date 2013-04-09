@@ -21,30 +21,35 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Simple';
-$string['configtitle'] = 'Simple Bootstrap';
-$string['region-side-post'] = 'Right';
-$string['region-side-pre'] = 'Left';
+$string['choosereadme'] = '
+<div class="clearfix">
+<div class="well">
+<h2>Simple</h2>
+<p><img class=img-polaroid src="simple/pix/screenshot.jpg" /></p>
+</div>
+<div class="well">
+<h3>About</h3>
+<p>Simple is a modified Moodle bootstrap theme which inherits styles and renderers from its parent theme.</p>
+<h3>Parents</h3>
+<p>This theme is based upon the Bootstrap theme, which was created for Moodle 2.5, with the help of:<br>
+Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>
+<h3>Theme Credits</h3>
+<p>Authors: Bas Brands, David Scotson, Mary Evans<br>
+Contact: bas@sonsbeekmedia.nl<br>
+Website: <a href="http://www.basbrands.nl">www.basbrands.nl</a>
+</p>
+<h3>Report a bug:</h3>
+<p><a href="http://tracker.moodle.org">http://tracker.moodle.org</a></p>
+<h3>More information</h3>
+</div></div>';
 
-$string['logo'] = 'Logo';
-$string['logodesc'] = 'Please add the URL to your new logo only if you want to replace the default logo for this theme.<br />For your information, the default logo is a JPG image 320px (wide) by 75px (high)';
-$string['footnote'] = 'Footnote';
-$string['footnotetxt'] = 'Simple is a modified Moodle Bootstrap theme';
-$string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throuout your Moodle site.';
+$string['configtitle'] = 'Simple Bootstrap';
 $string['customcss'] = 'Custom CSS';
 $string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
+$string['footnote'] = 'Footnote';
+$string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throuout your Moodle site.';
 
-$string['choosereadme'] = '
-<div class="clearfix"><div class="theme_screenshot"><h2>Vanguard</h2>
-<img class=img-polaroid src="bootstrap/pix/screenshot.jpg" />
-<h3>Theme Credits</h3>
-<h3>SIMPLE - is a Moodle simple bootstrap theme</h3>
-This theme is based upon the Moodle Bootstrap theme, which was originally created for Moodle with the help of:<br>
-Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.
-Authors: Bas Brands, David Scotson, Mary Evans<br>
-Contact: bas@sonsbeekmedia.nl<br>
-Website: <a href="http://www.basbrands.nl">www.basbrands.nl</a><br>
-<h3>Report a bug:</h3>
-<a href="http://tracker.moodle.org">http://tracker.moodle.org</a>
-<h3>More information</h3>';
+$string['pluginname'] = 'Simple Bootstrap';
+$string['region-side-post'] = 'Right';
+$string['region-side-pre'] = 'Left';
 
