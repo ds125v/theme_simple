@@ -28,8 +28,15 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$THEME->doctype = 'html5';
 $THEME->name = 'simple';
+
+/////////////////////////////////
+// The only thing you need to change in this file when copying it to
+// create a new theme is the name above. You also need to change the name
+// in version.php and lang/en/theme_simple.php as well.
+//////////////////////////////////
+//
+$THEME->doctype = 'html5';
 $THEME->parents = array('bootstrap');
 $THEME->sheets = array('custom');
 $THEME->supportscssoptimisation = false;

@@ -14,7 +14,7 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 /**
- * Strings for component 'theme_simple', language 'en', branch 'MOODLE_23_STABLE'
+ * Strings for component 'theme_simple', language 'en'
  *
  * @package   simple theme
  * @copyright 2013 Bas Brands, www.basbrands.nl
@@ -43,13 +43,13 @@ Website: <a href="http://www.basbrands.nl">www.basbrands.nl</a>
 <h3>More information</h3>
 </div></div>';
 
-$string['configtitle'] = 'Simple Bootstrap';
+$string['configtitle'] = 'Simple';
 $string['customcss'] = 'Custom CSS';
 $string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
 $string['footnote'] = 'Footnote';
 $string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throuout your Moodle site.';
 
-$string['pluginname'] = 'Simple Bootstrap';
+$string['pluginname'] = 'Simple';
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
 
