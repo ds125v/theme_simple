@@ -24,7 +24,7 @@
  * http://docs.moodle.org/dev/Themes_2.0
  *
  * @package   Moodle Simple theme
- * @copyright 2013 Martin Dougiamas
+ * @copyright 2013 Moodle, moodle.org
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -33,14 +33,15 @@ $THEME->name = 'simple';
 $THEME->parents = array('bootstrap');
 $THEME->sheets = array('custom');
 $THEME->supportscssoptimisation = false;
+$THEME->yuicssmodules = array();
 
-$THEME->editor_sheets = array('');
+$THEME->editor_sheets = array();
 
 $THEME->plugins_exclude_sheets = array(
     'block' => array(
         'settings',
         'navigation',
-        'html'
+        'html',
     ),
     'gradereport' => array(
         'grader',

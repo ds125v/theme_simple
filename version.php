@@ -15,13 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Theme version info
+ * Moodle's Simple theme, an example of how to make a Bootstrap theme
  *
- * @package    theme
- * @subpackage simple
- * @copyright  2013 Bas Brands, www.basbrands.nl
- * @authors    Bas Brands, David Scotson, Mary Evans
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * DO NOT MODIFY THIS THEME!
+ * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
+ *
+ * For full information about creating Moodle themes, see:
+ * http://docs.moodle.org/dev/Themes_2.0
+ *
+ * @package   Moodle Simple theme
+ * @copyright 2013 Moodle, moodle.org
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
