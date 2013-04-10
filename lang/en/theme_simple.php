@@ -44,6 +44,8 @@ Website: <a href="http://www.basbrands.nl">www.basbrands.nl</a>
 </div></div>';
 
 $string['configtitle'] = 'Simple';
+$string['invert'] = 'Invert navbar';
+$string['invertdesc'] = 'Swaps text and background for the navbar at the top of the page between black and white';
 $string['customcss'] = 'Custom CSS';
 $string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
 $string['footnote'] = 'Footnote';

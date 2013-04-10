@@ -26,7 +26,10 @@ $showsidepre = ($hassidepre && !$PAGE->blocks->region_completely_docked('side-pr
 $showsidepost = ($hassidepost && !$PAGE->blocks->region_completely_docked('side-post', $OUTPUT));
 
 $hasfootnote = (!empty($PAGE->theme->settings->footnote));
-
+$navbar_inverse = '';
+if (!empty($PAGE->theme->settings->invert)) {
+    $navbar_inverse = 'navbar-inverse';
+}
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = (empty($PAGE->layout_options['nocustommenu']) && !empty($custommenu));
 
@@ -72,7 +75,7 @@ echo $OUTPUT->doctype() ?>
 
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
 
-<header role="banner" class="navbar navbar-fixed-top">
+<header role="banner" class="navbar <?php echo $navbar_inverse ?> navbar-fixed-top">
     <nav role="navigation" class="navbar-inner">
         <div class="container-fluid">
             <a class="brand" href="<?php echo $CFG->wwwroot;?>"><?php echo $SITE->shortname; ?></a>
